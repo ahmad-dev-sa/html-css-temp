@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+
+nav{
+	float: right;
+	padding-right: 0px;
+}	
+	
+body{
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: arial;
+}
+
+
+nav ul li{
+	list-style-type: none;
+	padding-left: 20px;
+	text-align: right;
+	display: inline-block;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #2ba273;
+}
+
+.hero-box{
+	height: 338px;
+	background-color: #ff00d7;
+	background-image: url("images/pexels-photo-784631.jpeg");
+	background-size: cover;
+	background-position: center;
+	margin: 1%;
+}
+
+h1{
+	color: #FFFFFF;
+	font-size: 55px;
+	padding-top: 120px;
+	padding-left: 60px;
+}
+.col img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.col{
+	width: 31.3%;
+	float: left;
+	margin: 1%;
+	
+}
+
+
+@media (max-width:768px){
+	h1{
+		font-size: 40px;
+		text-align:center;
+		padding-left: 0px;
+	}
+	.col{
+	width: 48%;
+	}
+	nav ul li{
+		display: block;
+	}
+	
+}
+
+@media (max-width:400px){
+	h1{
+		font-size: 20px;
+	}
+	.col{
+	width: 98%;
+	}
+}
